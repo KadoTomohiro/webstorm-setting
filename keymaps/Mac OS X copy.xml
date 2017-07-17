@@ -1,0 +1,5 @@
+<keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ShowNpmScripts">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt n" />
+  </action>
+</keymap>
