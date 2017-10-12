@@ -1,5 +1,9 @@
 <templateSet group="TestCode">
-  <template name="test-it" value="it('$EXPECTATION$', () =&gt; {});" description="test pattern" toReformat="true" toShortenFQNames="true">
+  <template name="test-it" value="it('$EXPECTATION$', () =&gt; {&#10;  &#10;});" description="test pattern" toReformat="true" toShortenFQNames="true">
     <variable name="EXPECTATION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
   </template>
 </templateSet>
