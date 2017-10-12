@@ -6,4 +6,13 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="test-describe" value="describe('$DESCRIPTION$', () =&gt; {&#10;  $TESTPATTERN$&#10;});&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TESTPATTERN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="test-before" value="beforeEach(() =&gt; {&#10;  &#10;});" toReformat="false" toShortenFQNames="true" />
 </templateSet>
