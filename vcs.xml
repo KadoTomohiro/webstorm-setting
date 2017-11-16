@@ -6,6 +6,10 @@
           <option name="url" value="https://github.com/KadoTomohiro/posppoi.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/k-mopi/your-office.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Develop" />
