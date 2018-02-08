@@ -14,6 +14,10 @@
           <option name="url" value="git@gitlab.com:KadoTomohiro/StockNote.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/KadoTomohiro/agmSample.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Develop" />
